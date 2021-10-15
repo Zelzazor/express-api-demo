@@ -1,5 +1,16 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  .form
+    input#search(type="text", name="search" required)
+    button#call 
+      i.fas.fa-search
+  .container 
+    .col
+      p City:
+        span#city 
+    .col
+      p Temperature:
+        span#temp 
+      
+

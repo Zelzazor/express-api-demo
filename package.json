@@ -14,14 +14,17 @@
     "url": "git+https://github.com/Zelzazor/express-api-demo.git"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "axios": "^0.23.0",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
+    "dotenv": "^10.0.0",
     "express": "~4.16.1",
     "http-errors": "~1.6.3",
     "morgan": "~1.9.1",
     "pug": "^3.0.2"
   },
-  "engines":{
+  "engines": {
     "npm": ">=7.23.0",
     "node": ">=14.17.6"
   }

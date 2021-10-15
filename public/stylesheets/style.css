@@ -1,8 +1,46 @@
+
+* {
+  box-sizing: border-box;
+}
+
+
+
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 62.5% "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+p {
+  font-size: 1rem;
+  margin: 0.5rem;
+}
+
+.form {
+  display: flex;
+  justify-content: end;
+}
+
+#search{
+  margin-right: 1rem;
+  font-size: 1.2rem;
+  width: auto;
+  flex-grow: 2;
+}
+
+#call {
+  border: none;
+  background-color: #00B7FF;
+  padding: 0.5rem 0.7rem;
 }
 
 a {
   color: #00B7FF;
 }
+
+.container{
+  min-height: 92vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
