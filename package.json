@@ -5,6 +5,14 @@
   "scripts": {
     "start": "node ./bin/www"
   },
+  "description": "This is a demo to see if I can hide API keys from ajax calls",
+  "license": "MIT",
+  "author": "Felipe Ramírez",
+  "homepage": "https://github.com/Zelzazor/express-api-demo#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zelzazor/express-api-demo.git"
+  },
   "dependencies": {
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
