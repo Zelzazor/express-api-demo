@@ -1,14 +1,9 @@
-document.getElementById("search").addEventListener("keydown", async (e)=>{
-    if(e.key === 'Enter'){
-        const data = await getData();
-        presentData(data);
-    }
-})
-
-document.getElementById("call").addEventListener("click", async ()=>{
+document.getElementById("form").addEventListener("submit", async (e)=>{
+    e.preventDefault();
     const data = await getData();
     presentData(data);
-});
+})
+
 
 async function getData(){
     const textbox = document.getElementById("search");
